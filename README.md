@@ -2,8 +2,6 @@
 ----------
 This repository contains random stuff that isn’t useful or big/functional enough to have it’s own repository.
 
-<br>
-
 #Directory & File Map
 ----------
 * C/HelloWorld.c

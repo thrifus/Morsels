@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F83125C1C3EA0F200C28BFD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F83125B1C3EA0F200C28BFD /* AppleScriptObjC.framework */; };
+		4F8312601C3EA0F200C28BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F83125F1C3EA0F200C28BFD /* main.m */; };
+		4F8312621C3EA0F200C28BFD /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 4F8312611C3EA0F200C28BFD /* AppDelegate.applescript */; };
+		4F8312641C3EA0F200C28BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8312631C3EA0F200C28BFD /* Assets.xcassets */; };
+		4F8312671C3EA0F200C28BFD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8312651C3EA0F200C28BFD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8312581C3EA0F200C28BFD /* Golden Platter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Platter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F83125B1C3EA0F200C28BFD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		4F83125F1C3EA0F200C28BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F8312611C3EA0F200C28BFD /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		4F8312631C3EA0F200C28BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8312661C3EA0F200C28BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F8312681C3EA0F200C28BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8312551C3EA0F200C28BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F83125C1C3EA0F200C28BFD /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F83124F1C3EA0F200C28BFD = {
+			isa = PBXGroup;
+			children = (
+				4F83125D1C3EA0F200C28BFD /* Golden Platter */,
+				4F83125A1C3EA0F200C28BFD /* Frameworks */,
+				4F8312591C3EA0F200C28BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8312591C3EA0F200C28BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8312581C3EA0F200C28BFD /* Golden Platter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F83125A1C3EA0F200C28BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F83125B1C3EA0F200C28BFD /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F83125D1C3EA0F200C28BFD /* Golden Platter */ = {
+			isa = PBXGroup;
+			children = (
+				4F8312611C3EA0F200C28BFD /* AppDelegate.applescript */,
+				4F8312631C3EA0F200C28BFD /* Assets.xcassets */,
+				4F8312651C3EA0F200C28BFD /* MainMenu.xib */,
+				4F8312681C3EA0F200C28BFD /* Info.plist */,
+				4F83125E1C3EA0F200C28BFD /* Supporting Files */,
+			);
+			path = "Golden Platter";
+			sourceTree = "<group>";
+		};
+		4F83125E1C3EA0F200C28BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F83125F1C3EA0F200C28BFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8312571C3EA0F200C28BFD /* Golden Platter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F83126B1C3EA0F200C28BFD /* Build configuration list for PBXNativeTarget "Golden Platter" */;
+			buildPhases = (
+				4F8312541C3EA0F200C28BFD /* Sources */,
+				4F8312551C3EA0F200C28BFD /* Frameworks */,
+				4F8312561C3EA0F200C28BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Platter";
+			productName = "Golden Platter";
+			productReference = 4F8312581C3EA0F200C28BFD /* Golden Platter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8312501C3EA0F200C28BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Urbicapus Studios";
+				TargetAttributes = {
+					4F8312571C3EA0F200C28BFD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F8312531C3EA0F200C28BFD /* Build configuration list for PBXProject "Golden Platter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F83124F1C3EA0F200C28BFD;
+			productRefGroup = 4F8312591C3EA0F200C28BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8312571C3EA0F200C28BFD /* Golden Platter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8312561C3EA0F200C28BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8312641C3EA0F200C28BFD /* Assets.xcassets in Resources */,
+				4F8312671C3EA0F200C28BFD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8312541C3EA0F200C28BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8312621C3EA0F200C28BFD /* AppDelegate.applescript in Sources */,
+				4F8312601C3EA0F200C28BFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F8312651C3EA0F200C28BFD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8312661C3EA0F200C28BFD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8312691C3EA0F200C28BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = thrifus;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F83126A1C3EA0F200C28BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = thrifus;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F83126C1C3EA0F200C28BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = thrifus;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Golden Platter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thrifus.Golden-Platter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F83126D1C3EA0F200C28BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = thrifus;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Golden Platter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thrifus.Golden-Platter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8312531C3EA0F200C28BFD /* Build configuration list for PBXProject "Golden Platter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8312691C3EA0F200C28BFD /* Debug */,
+				4F83126A1C3EA0F200C28BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F83126B1C3EA0F200C28BFD /* Build configuration list for PBXNativeTarget "Golden Platter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F83126C1C3EA0F200C28BFD /* Debug */,
+				4F83126D1C3EA0F200C28BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8312501C3EA0F200C28BFD /* Project object */;
+}
