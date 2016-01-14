@@ -1,9 +1,7 @@
 #Morsels
-----------
 This repository contains random stuff that isn’t useful or big/functional enough to have it’s own repository.
 
 #Directory & File Map
-----------
 * C/HelloWorld.c
 	* My first program in C. Prints it in pretty colors, too.
 * Shell/AutoSSHLogin
