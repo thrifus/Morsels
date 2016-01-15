@@ -1,5 +1,5 @@
 #Morsels
-This repository contains random stuff that isn’t very useful or not big/functional enough to have it’s own repository. Feel free to use these for whatever you want. There’s no license, but if you happen to use something from here, it’d be nice if you put a link back to [me](http://thrifus.co/) somewhere.
+This repository contains random stuff that isn’t very useful, big, or not functional enough to have its own repository. Feel free to use these for whatever you want. There’s no license, but if you happen to use something from here, it’d be nice if you put a link back to [me](http://thrifus.co/) somewhere.
 
 #Directory & File Map
 * __C/HelloWorld.c__
