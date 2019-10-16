@@ -1,5 +1,5 @@
 #!/usr/bin/expect
 spawn ssh <username>@<ip>
-expect "assword:"
+expect "password:"
 send "<password>\r"
 interact
